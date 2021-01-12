@@ -155,11 +155,6 @@ def add_row_to_df(df, section, sub_section, given_data_type, exp_data_type, give
     :param error_key: error code
     :return: appended data frame
     """
-    if given_data_type == DataType.others.name:
-        given_data_type = ""  # storing empty for data_type "others" in report.csv
-
-    if given_length == 0:
-        given_length = ""  # storing empty for length 0 in report.csv
 
     row = {"Section": section, "Sub-Section": sub_section, "Given DataType": given_data_type,
            "Expected DataType": exp_data_type, "Given Length": given_length,

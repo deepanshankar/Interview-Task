@@ -2,7 +2,7 @@
 Project to parse input files and generate report and summary
 
 
-Instructions to run the programs:
+# Instructions to run the programs:
 
 Please have the following files in the "Interview Task" folder:
 
@@ -21,7 +21,7 @@ The formed report is stored in "parsed/report.csv" and summary is stored in "par
 Once program assignment.py has completed its execution, the results are stored in "parsed" folder
 and logs are stored in "logs/summary.log" by replacing any previous logs.
 
-Unit Testing:
+# Unit Testing:
 
 The "test" folder contains "unit_test.py" file, where the unit testing is done
 

@@ -105,7 +105,7 @@ def calculate_error_code(value, exp_data_type, exp_max_length, given_data_type, 
 
     is_empty = True if not value else False
 
-    if is_empty | (not data_type_match and not length_match):
+    if not data_type_match and not length_match:
         return "E04"
     elif data_type_match and length_match:
         return "E01"
